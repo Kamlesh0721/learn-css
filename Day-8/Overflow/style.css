@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#box {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWT4ICpoqGhoJwNJcyiYSZBiX9AQ6LCjpl8A&s');
+    color: whitesmoke;
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    padding: 40px;
+    border: 2px solid white;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+article {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 20px;
+}
+
+#box h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+
+}
+
+#box p {
+    text-align: justify;
+    font-size: 18px;
+}

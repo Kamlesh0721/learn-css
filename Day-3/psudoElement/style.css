@@ -1,0 +1,46 @@
+/* div {
+    color: white;
+}
+
+div::first-letter {
+    color: blue;
+    font-size: 25px;
+}
+
+span {
+    color: white;
+    display: inline-block;
+    /* give block property
+    
+} 
+    */
+
+/* span::first-letter {
+    color: red;
+    font-size: 25px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+p::first-line {
+    color: rgb(20, 206, 20);
+}
+
+span {
+    display: inline-block;
+} */
+
+.name::first-letter {
+    color: pink
+}
+
+p::selection {
+    background-color: green;
+}
+
+*::selection {
+    background-color: red;
+}

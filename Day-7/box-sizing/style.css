@@ -1,0 +1,9 @@
+.content-box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 10px bold violet;
+
+}
+
+.border-box {}

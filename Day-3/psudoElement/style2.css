@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+ul>li:nth-of-type(even)::marker {
+    content: '--';
+}
+
+ol>li:nth-of-type(even)::marker {
+    content: '++';
+}

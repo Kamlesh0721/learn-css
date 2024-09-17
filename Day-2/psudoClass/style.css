@@ -1,0 +1,40 @@
+/* article :first-child {
+    color: purple;
+}
+
+article>:last-child {
+    color: green;
+}
+
+article>:nth-child(5),
+:nth-child(6) {
+    background-color: purple;
+    color: white;
+} */
+
+/* first-of-type,:last-of-type */
+artile p:first-of-type {
+    color: blue;
+}
+
+article p:last-of-type {
+    color: pink;
+}
+
+artile>span:first-of-type {
+    color: blue;
+}
+
+article>span:last-of-type {
+    color: pink;
+}
+
+article>p:nth-of-type(2) {
+    background-color: purple;
+    color: white;
+}
+
+article>span:nth-of-type(2) {
+    background-color: purple;
+    color: white;
+}

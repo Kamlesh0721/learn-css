@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    width: 1000px;
+    height: 550px;
+    border: 2px solid black;
+    background-color: lightcyan;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.child {
+    width: 250px;
+    height: 250px;
+}
+
+.child-1 {
+    /* background-color: aquamarine; */
+    background-image: url('https://en-chatelaine.mblycdn.com/ench/resized/2019/06/w767/keanu-reeves-crush.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.child-2 {
+    /* background-color: tomato; */
+    background-image: url('https://mynbc15.com/resources/media2/16x9/full/1024/center/80/404518cd-70eb-4a5b-a6ba-a4fb66e0c2bb-large16x9_LanceReddick2.png');
+    /* color: white; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.child-3 {
+    /* background-color: coral; */
+    background-image: url('https://fotografias.larazon.es/clipping/cmsimages01/2019/10/23/1DA4775A-CD2A-422A-9C2E-6FB580C60CD8/97.jpg?crop=800,450,x0,y175&width=1600&height=900&optimize=low&format=webply');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}

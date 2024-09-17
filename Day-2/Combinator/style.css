@@ -1,0 +1,42 @@
+/*
+Direct Child or Indirect Child Selector
+*/
+/* article div {
+    color: red;
+} */
+
+/* article p {
+    color: blue;
+}
+     */
+
+/*
+Direct Child Selector
+*/
+/* article>p {
+    color: blue;
+}
+
+article>main>p {
+    color: magenta;
+} */
+
+/*
+Immediate Sibling Selector
+*/
+
+/* article+div {
+    color: red;
+} */
+
+/* article+div+h1 {
+    color: blue;
+} */
+
+/*
+Genral Sibling Selector 
+*/
+
+article~p {
+    color: red;
+}

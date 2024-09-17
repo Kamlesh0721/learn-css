@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: lightgoldenrodyellow;
+}
+
+.card {
+    width: 150px;
+    height: 220px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+#Card-1 {
+    background-color: magenta;
+
+}
+
+#Card-2 {
+    background-color: aqua;
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0.2;
+}
+
+#Card-3 {
+    background-color: tomato;
+}

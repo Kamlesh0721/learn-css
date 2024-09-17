@@ -1,0 +1,23 @@
+/* a:link {
+    color: goldenrod;
+}
+
+a:active {
+    color: pink;
+}
+
+a:visited {
+    color: aqua;
+} */
+
+a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+
+
+}
+
+a:hover {
+    background-color: black;
+}
